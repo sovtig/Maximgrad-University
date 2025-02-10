@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.step {
+  transition: transform 0.3s ease-in-out;
+}
+
+.active {
+  transform: scale(1.1);
+}
